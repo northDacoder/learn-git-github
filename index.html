@@ -92,6 +92,28 @@
             <pre><code>$ git remote <span style="color: lime">remove origin https://github.com/bob-dylan/project</span></pre>
 
 
+            <p>To create a new branch & give it a branch name</p>
+            <pre><code>$ git checkout <span style="color: lime">-b feature_branch</span></pre>
+
+            <p>To switch back to master</p>
+            <pre><code>$ git checkout <span style="color: lime">master</span></pre>
+
+            <p>To delete a branch, you must be checked out to a different branch</p>
+            <pre><code>$ git branch <span style="color: lime">-d feature_branch</span></pre>
+
+            <p>Everything you have done so far with branches has been done locally</p>
+            <p>To make a branch available to others you will need to push the local branch to your remote repository</p>
+
+            <pre><code>$ git push <span style="color: lime">origin BRANCH-NAME</span></pre>
+
+            <p>To update your local repository to the newest commit from the remote server, run:</p>
+            <pre><code>$ git pull</code></pre>
+            <p><code>git pull</code> is actually going to fetch & merge the remote changes into your local <strong>HEAD</strong></p>
+
+            <p>To merge another branch into your active branch</p>
+            <pre><code>$ git merge <span style="color: lime">BRANCH-NAME</span></pre>
+
+
 
 
 
